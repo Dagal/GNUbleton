@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1164</width>
-    <height>687</height>
+    <width>797</width>
+    <height>626</height>
    </rect>
   </property>
   <property name="palette">
@@ -433,28 +433,28 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QJackPlayButton" name="qJackPlayButton"/>
+       <widget class="QJackPlayButton" name="qJackPlayButton" native="true"/>
       </item>
       <item>
-       <widget class="QJackPauseButton" name="qJackPauseButton"/>
+       <widget class="QJackPauseButton" name="qJackPauseButton" native="true"/>
       </item>
       <item>
-       <widget class="QJackStopButton" name="qJackStopButton"/>
+       <widget class="QJackStopButton" name="qJackStopButton" native="true"/>
       </item>
       <item>
-       <widget class="QJackRewindButton" name="qJackRewindButton"/>
+       <widget class="QJackRewindButton" name="qJackRewindButton" native="true"/>
       </item>
       <item>
-       <widget class="QJackFastForwardButton" name="qJackFastForwardButton"/>
+       <widget class="QJackFastForwardButton" name="qJackFastForwardButton" native="true"/>
       </item>
       <item>
-       <widget class="QJackPreviousIndexButton" name="qJackPreviousIndexButton"/>
+       <widget class="QJackPreviousIndexButton" name="qJackPreviousIndexButton" native="true"/>
       </item>
       <item>
-       <widget class="QJackNextIndexButton" name="qJackNextIndexButton"/>
+       <widget class="QJackNextIndexButton" name="qJackNextIndexButton" native="true"/>
       </item>
       <item>
-       <widget class="QJackRecordButton" name="qJackRecordButton"/>
+       <widget class="QJackRecordButton" name="qJackRecordButton" native="true"/>
       </item>
       <item>
        <widget class="QDagalLed" name="qDagalLed"/>
@@ -466,6 +466,16 @@
        <widget class="QJackClient" name="qJackClient"/>
       </item>
      </layout>
+    </item>
+    <item>
+     <widget class="QFrame" name="bigTimeLine">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
     </item>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
@@ -506,7 +516,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1164</width>
+     <width>797</width>
      <height>16</height>
     </rect>
    </property>
@@ -542,11 +552,13 @@
    <class>QJackSendReturnChannel</class>
    <extends>QFrame</extends>
    <header>QJackSendReturnChannel.h</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>QJackMasterChannel</class>
    <extends>QFrame</extends>
    <header>QJackMasterChannel.h</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>QJackPlayButton</class>
