@@ -21,3 +21,6 @@ SOURCES += main.cpp\
 HEADERS  += MainWindow.h
 
 FORMS    += MainWindow.ui
+
+DISTFILES += \
+    README.md
